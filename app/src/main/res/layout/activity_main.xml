@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app-logo"
+        android:layout_width="@dimen/mar300"
+        android:layout_height="@dimen/mar100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar60"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="@dimen/mar220"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar140"
+        android:text="@string/letzz_shope_online"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/size22"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginRight="@dimen/mar15"
+        android:layout_marginBottom="@dimen/mar15"
+        android:background="@drawable/button"
+        android:padding="@dimen/mar20"
+        android:text="Already Have In Account ? Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/size18" />
+
+    <Button
+        android:id="@+id/join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginRight="@dimen/mar15"
+        android:layout_marginBottom="@dimen/mar5"
+        android:background="@drawable/input_design"
+        android:padding="@dimen/mar20"
+        android:text="Join Now"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/size18" />
+
+</RelativeLayout>

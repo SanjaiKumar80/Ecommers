@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/register_app_logo"
+        android:layout_width="@dimen/mar300"
+        android:layout_height="@dimen/mar100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar200"
+        android:src="@drawable/applogo" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/user_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_app_logo"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginTop="@dimen/mar10"
+        android:layout_marginRight="@dimen/mar15"
+        android:background="@drawable/input_design"
+        android:hint="UserName"
+        android:inputType="text"
+        android:padding="@dimen/mar20"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/size18"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mar10"
+        android:layout_below="@+id/user_name_input"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginRight="@dimen/mar15"
+        android:background="@drawable/input_design"
+        android:hint="@string/phonenumber"
+        android:inputType="number"
+        android:padding="@dimen/mar20"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/size18"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/register_Password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_phone_number_input"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginTop="@dimen/mar10"
+        android:layout_marginRight="@dimen/mar15"
+        android:background="@drawable/input_design"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:padding="@dimen/mar20"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="@dimen/size18"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_Password_input"
+        android:layout_marginLeft="@dimen/mar15"
+        android:layout_marginTop="@dimen/mar15"
+        android:layout_marginRight="@dimen/mar15"
+        android:background="@drawable/button"
+        android:padding="@dimen/mar20"
+        android:text="@string/create_account"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/size18" />
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "473103343156",
+    "firebase_url": "https://ecommers-c920c.firebaseio.com",
+    "project_id": "ecommers-c920c",
+    "storage_bucket": "ecommers-c920c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473103343156:android:9b9a5d2e8d11897b427461",
+        "android_client_info": {
+          "package_name": "com.app.ecommers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473103343156-rbrljcdagt3ri17rrghvl2a8m28g81h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt-IL5rlhJSi3khF_RrnzLQpIyRpaRifQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473103343156-rbrljcdagt3ri17rrghvl2a8m28g81h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473103343156:android:a8239966604e08c9427461",
+        "android_client_info": {
+          "package_name": "om.app.ecommers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473103343156-81l1tc82r61qcqjhptdhra9r92a66ev9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "om.app.ecommers",
+            "certificate_hash": "4f480b15ffe93a6130427f6e5fd832c8c3cb9ff0"
+          }
+        },
+        {
+          "client_id": "473103343156-rbrljcdagt3ri17rrghvl2a8m28g81h5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt-IL5rlhJSi3khF_RrnzLQpIyRpaRifQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473103343156-rbrljcdagt3ri17rrghvl2a8m28g81h5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
